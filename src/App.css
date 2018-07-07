@@ -1,0 +1,86 @@
+.App {
+    height: 100%;
+    min-height: 400px;
+    text-align: center;
+}
+
+.App-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.App-heading {
+    background-color: #222;
+    color: #f8f8f8;
+    font-size: 4vh;
+    flex: 1;
+}
+
+.App-react {
+    color: #00d8ff;
+    text-decoration: overline underline;
+}
+
+.App-logo {
+    max-height: 30vh;
+    max-width: 30vh;
+}
+
+body {
+    background-color: #f8f8f8;
+    color: #222;
+    font-size: 2.5vh;
+    line-height: 1.5;
+}
+
+.App-instructions {
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+}
+
+.App-instructions p,
+.benchmark p {
+    width: 70%;
+    margin-bottom: 0px;
+    /* padding-bottom: 1em; */
+}
+
+.benchmark {
+    padding-top: 50px;
+}
+
+.benchmark p {
+    margin: 1em auto;
+}
+
+.App-instructions code {
+    background-color: #222;
+    color: #00d8ff;
+    padding: 0.2em 0.3em;
+    border-radius: 0.2em;
+}
+
+hr {
+    border: 1px solid #555;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.benchmark-scratchpad {
+    width: 93vw;
+    overflow: auto;
+    margin: 0 auto;
+}
+
+.benchmark-scratchpad div {
+    font-size: 0.8em;
+    padding: 0.2em 0.3em;
+    display: inline-block;
+}
